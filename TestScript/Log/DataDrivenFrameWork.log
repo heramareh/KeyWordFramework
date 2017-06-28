@@ -1,0 +1,427 @@
+2017-06-26 19:15:00 Log.py[line:19] INFO 登录成功
+2017-06-26 19:15:06 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:15:11 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:15:17 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:40:00 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"excludeSwitches": ["ignore-certificate-errors"], "args": [], "extensions": []}, "javascriptEnabled": true}}
+2017-06-26 19:40:01 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:01 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/window/current/maximize {"windowHandle": "current", "sessionId": "43986e779ad9fff90873d38955fd6539"}
+2017-06-26 19:40:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:03 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/url {"url": "http:\\mail.126.com", "sessionId": "43986e779ad9fff90873d38955fd6539"}
+2017-06-26 19:40:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "id", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "x-URS-iframe"}
+2017-06-26 19:40:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/frame {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": {"element-6066-11e4-a52e-4f735466cecf": "0.2074537687221807-1", "ELEMENT": "0.2074537687221807-1"}}
+2017-06-26 19:40:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:09 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//input[@name='email']"}
+2017-06-26 19:40:09 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:09 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.09332273415354009-1/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.09332273415354009-1", "value": ["s", "j", "j", "m", "0", "0", "0", "1"]}
+2017-06-26 19:40:09 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//input[@name='password']"}
+2017-06-26 19:40:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.09332273415354009-2/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.09332273415354009-2", "value": ["1", "1", "1", "1", "1", "q"]}
+2017-06-26 19:40:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "id", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "dologin"}
+2017-06-26 19:40:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.09332273415354009-3/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.09332273415354009-3"}
+2017-06-26 19:40:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 19:40:11 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:11 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 19:40:11 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:12 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 19:40:12 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:12 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.09332273415354009-4/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.09332273415354009-4"}
+2017-06-26 19:40:12 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:17 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/source {"sessionId": "43986e779ad9fff90873d38955fd6539"}
+2017-06-26 19:40:17 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:18 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//div[text()='\u901a\u8baf\u5f55']"}
+2017-06-26 19:40:18 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:18 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-1/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-1"}
+2017-06-26 19:40:18 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:20 Log.py[line:19] INFO 登录成功
+2017-06-26 19:40:20 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 19:40:20 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:21 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-2/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-2"}
+2017-06-26 19:40:21 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:22 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 19:40:22 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:22 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-3/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-3", "value": ["l", "i", "l", "y"]}
+2017-06-26 19:40:22 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:22 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 19:40:22 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:23 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-4/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-4", "value": ["l", "i", "l", "y", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 19:40:23 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:23 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 19:40:23 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:23 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-5/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-5"}
+2017-06-26 19:40:23 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:23 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 19:40:23 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-6/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-6", "value": ["1", "3", "5", "x", "x", "x", "x", "x", "x", "x", "1"]}
+2017-06-26 19:40:24 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//textarea"}
+2017-06-26 19:40:24 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-7/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-7", "value": ["\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 19:40:24 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 19:40:24 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:25 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-8/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-8"}
+2017-06-26 19:40:25 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:27 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/source {"sessionId": "43986e779ad9fff90873d38955fd6539"}
+2017-06-26 19:40:27 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:27 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:40:27 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 19:40:27 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:27 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-2/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-2"}
+2017-06-26 19:40:27 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:28 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 19:40:28 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:29 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-9/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-9", "value": ["\u5f20", "\u4e09"]}
+2017-06-26 19:40:29 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:29 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 19:40:29 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:29 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-10/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-10", "value": ["z", "h", "a", "n", "g", "s", "a", "n", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 19:40:29 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:29 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 19:40:29 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:30 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-11/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-11"}
+2017-06-26 19:40:30 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:30 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 19:40:30 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:30 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-12/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-12", "value": ["1", "5", "8", "x", "x", "x", "x", "x", "x", "x", "3"]}
+2017-06-26 19:40:30 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:30 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//textarea"}
+2017-06-26 19:40:30 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:31 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-13/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-13", "value": ["\u4e0d", "\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 19:40:31 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:31 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 19:40:31 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:31 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-14/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-14"}
+2017-06-26 19:40:31 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:33 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/source {"sessionId": "43986e779ad9fff90873d38955fd6539"}
+2017-06-26 19:40:33 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:33 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:40:33 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 19:40:33 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:34 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-2/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-2"}
+2017-06-26 19:40:34 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:35 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 19:40:35 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:35 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-15/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-15", "value": ["a", "m", "y"]}
+2017-06-26 19:40:35 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:35 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 19:40:35 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:36 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-16/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-16", "value": ["a", "m", "y", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 19:40:36 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:36 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 19:40:36 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:36 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-17/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-17"}
+2017-06-26 19:40:36 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:36 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 19:40:36 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:37 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-18/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-18", "value": ["1", "3", "9", "x", "x", "x", "x", "x", "8"]}
+2017-06-26 19:40:37 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:37 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//textarea"}
+2017-06-26 19:40:37 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:37 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-19/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-19", "value": ["\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 19:40:37 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:37 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 19:40:37 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:37 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-20/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-20"}
+2017-06-26 19:40:38 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:40 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/source {"sessionId": "43986e779ad9fff90873d38955fd6539"}
+2017-06-26 19:40:40 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:40 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:40:40 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 19:40:40 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:40 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-2/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-2"}
+2017-06-26 19:40:40 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:41 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 19:40:41 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:42 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-21/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-21", "value": ["\u674e", "\u56db"]}
+2017-06-26 19:40:42 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:42 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 19:40:42 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:42 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-22/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-22", "value": ["l", "i", "s", "i", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 19:40:42 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:42 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 19:40:42 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-23/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-23"}
+2017-06-26 19:40:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 19:40:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-24/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-24", "value": ["1", "5", "7", "x", "x", "x", "x", "x", "x", "9"]}
+2017-06-26 19:40:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//textarea"}
+2017-06-26 19:40:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:44 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-25/value {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-25", "value": ["\u4e0d", "\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 19:40:44 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:44 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element {"using": "xpath", "sessionId": "43986e779ad9fff90873d38955fd6539", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 19:40:44 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:44 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/element/0.7025537341725312-26/click {"sessionId": "43986e779ad9fff90873d38955fd6539", "id": "0.7025537341725312-26"}
+2017-06-26 19:40:44 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:46 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24344/session/43986e779ad9fff90873d38955fd6539/source {"sessionId": "43986e779ad9fff90873d38955fd6539"}
+2017-06-26 19:40:46 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:40:46 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:43:33 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"excludeSwitches": ["ignore-certificate-errors"], "args": [], "extensions": []}, "javascriptEnabled": true}}
+2017-06-26 19:43:35 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:35 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/window/current/maximize {"windowHandle": "current", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2"}
+2017-06-26 19:43:36 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:36 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/url {"url": "http:\\mail.126.com", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2"}
+2017-06-26 19:43:37 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:40 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "id", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "x-URS-iframe"}
+2017-06-26 19:43:40 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:40 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/frame {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": {"element-6066-11e4-a52e-4f735466cecf": "0.038791290571992265-1", "ELEMENT": "0.038791290571992265-1"}}
+2017-06-26 19:43:40 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//input[@name='email']"}
+2017-06-26 19:43:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.1109924254480481-1/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.1109924254480481-1", "value": ["s", "j", "j", "m", "0", "0", "0", "1"]}
+2017-06-26 19:43:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//input[@name='password']"}
+2017-06-26 19:43:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.1109924254480481-2/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.1109924254480481-2", "value": ["1", "1", "1", "1", "1", "q"]}
+2017-06-26 19:43:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "id", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "dologin"}
+2017-06-26 19:43:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:44 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.1109924254480481-3/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.1109924254480481-3"}
+2017-06-26 19:43:44 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:44 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 19:43:44 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:44 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 19:43:45 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:45 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 19:43:45 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:45 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.1109924254480481-4/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.1109924254480481-4"}
+2017-06-26 19:43:45 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:51 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/source {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2"}
+2017-06-26 19:43:51 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:51 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//div[text()='\u901a\u8baf\u5f55']"}
+2017-06-26 19:43:51 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:51 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-1/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-1"}
+2017-06-26 19:43:51 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:54 Log.py[line:19] INFO 登录成功
+2017-06-26 19:43:54 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 19:43:54 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:54 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-2/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-2"}
+2017-06-26 19:43:54 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:55 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 19:43:55 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:56 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-3/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-3", "value": ["l", "i", "l", "y"]}
+2017-06-26 19:43:56 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:56 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 19:43:56 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:56 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-4/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-4", "value": ["l", "i", "l", "y", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 19:43:56 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:56 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 19:43:56 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:56 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-5/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-5"}
+2017-06-26 19:43:57 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:57 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 19:43:57 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:57 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-6/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-6", "value": ["1", "3", "5", "x", "x", "x", "x", "x", "x", "x", "1"]}
+2017-06-26 19:43:57 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:57 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//textarea"}
+2017-06-26 19:43:57 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:57 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-7/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-7", "value": ["\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 19:43:57 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:57 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 19:43:58 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:43:58 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-8/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-8"}
+2017-06-26 19:43:58 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:00 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/source {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2"}
+2017-06-26 19:44:00 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:00 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:44:00 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 19:44:00 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:00 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-2/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-2"}
+2017-06-26 19:44:01 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:02 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 19:44:02 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:02 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-9/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-9", "value": ["\u5f20", "\u4e09"]}
+2017-06-26 19:44:02 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:02 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 19:44:02 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:02 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-10/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-10", "value": ["z", "h", "a", "n", "g", "s", "a", "n", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 19:44:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:03 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 19:44:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:03 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-11/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-11"}
+2017-06-26 19:44:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:03 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 19:44:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:03 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-12/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-12", "value": ["1", "5", "8", "x", "x", "x", "x", "x", "x", "x", "3"]}
+2017-06-26 19:44:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:03 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//textarea"}
+2017-06-26 19:44:03 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:04 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-13/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-13", "value": ["\u4e0d", "\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 19:44:04 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:04 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 19:44:04 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:04 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-14/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-14"}
+2017-06-26 19:44:04 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:06 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/source {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2"}
+2017-06-26 19:44:06 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:07 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 19:44:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 19:44:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-2/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-2"}
+2017-06-26 19:44:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:08 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 19:44:08 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:08 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-15/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-15", "value": ["\u674e", "\u56db"]}
+2017-06-26 19:44:08 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:09 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 19:44:09 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:09 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-16/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-16", "value": ["l", "i", "s", "i", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 19:44:09 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:09 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 19:44:09 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:09 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-17/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-17"}
+2017-06-26 19:44:09 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:09 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 19:44:09 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-18/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-18", "value": ["1", "5", "7", "x", "x", "x", "x", "x", "x", "9"]}
+2017-06-26 19:44:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//textarea"}
+2017-06-26 19:44:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-19/value {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-19", "value": ["\u4e0d", "\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 19:44:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:10 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element {"using": "xpath", "sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 19:44:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:11 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/element/0.6803172440987297-20/click {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2", "id": "0.6803172440987297-20"}
+2017-06-26 19:44:11 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:13 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:24744/session/8d7aacb98841ef54ba30324ff5990bc2/source {"sessionId": "8d7aacb98841ef54ba30324ff5990bc2"}
+2017-06-26 19:44:13 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 19:44:13 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 20:07:38 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"excludeSwitches": ["ignore-certificate-errors"], "args": [], "extensions": []}, "javascriptEnabled": true}}
+2017-06-26 20:07:40 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:40 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/window/current/maximize {"windowHandle": "current", "sessionId": "e15fac37bc3184029daa034dea039ee2"}
+2017-06-26 20:07:41 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:41 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/url {"url": "http:\\mail.126.com", "sessionId": "e15fac37bc3184029daa034dea039ee2"}
+2017-06-26 20:07:42 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:42 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "id", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "x-URS-iframe"}
+2017-06-26 20:07:42 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:42 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "id", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "x-URS-iframe"}
+2017-06-26 20:07:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:43 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/frame {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": {"element-6066-11e4-a52e-4f735466cecf": "0.24993597328629136-1", "ELEMENT": "0.24993597328629136-1"}}
+2017-06-26 20:07:43 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:45 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//input[@name='email']"}
+2017-06-26 20:07:45 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:45 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.2967417053175425-1/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.2967417053175425-1", "value": ["s", "j", "j", "m", "0", "0", "0", "1"]}
+2017-06-26 20:07:45 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:45 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//input[@name='password']"}
+2017-06-26 20:07:45 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:46 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.2967417053175425-2/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.2967417053175425-2", "value": ["1", "1", "1", "1", "1", "q"]}
+2017-06-26 20:07:46 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:46 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "id", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "dologin"}
+2017-06-26 20:07:46 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:46 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.2967417053175425-3/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.2967417053175425-3"}
+2017-06-26 20:07:46 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:46 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 20:07:46 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:47 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 20:07:47 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:47 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//a[text()='\u7ee7\u7eed\u767b\u5f55']"}
+2017-06-26 20:07:48 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:48 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.2967417053175425-4/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.2967417053175425-4"}
+2017-06-26 20:07:48 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:53 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/source {"sessionId": "e15fac37bc3184029daa034dea039ee2"}
+2017-06-26 20:07:55 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:55 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//div[text()='\u901a\u8baf\u5f55']"}
+2017-06-26 20:07:55 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:55 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-1/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-1"}
+2017-06-26 20:07:55 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:57 Log.py[line:19] INFO 登录成功
+2017-06-26 20:07:57 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 20:07:57 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:58 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-2/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-2"}
+2017-06-26 20:07:58 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:59 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 20:07:59 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:59 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-3/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-3", "value": ["l", "i", "l", "y"]}
+2017-06-26 20:07:59 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:07:59 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 20:07:59 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:00 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-4/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-4", "value": ["l", "i", "l", "y", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 20:08:00 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:00 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 20:08:00 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:00 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-5/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-5"}
+2017-06-26 20:08:00 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:00 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 20:08:00 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:01 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-6/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-6", "value": ["1", "3", "5", "x", "x", "x", "x", "x", "x", "x", "1"]}
+2017-06-26 20:08:01 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:01 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//textarea"}
+2017-06-26 20:08:01 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:01 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-7/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-7", "value": ["\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 20:08:01 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:01 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 20:08:01 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:02 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-8/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-8"}
+2017-06-26 20:08:02 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:04 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/source {"sessionId": "e15fac37bc3184029daa034dea039ee2"}
+2017-06-26 20:08:04 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:04 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 20:08:04 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 20:08:04 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:04 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-2/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-2"}
+2017-06-26 20:08:04 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:06 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 20:08:06 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:06 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-9/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-9", "value": ["\u5f20", "\u4e09"]}
+2017-06-26 20:08:06 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:06 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 20:08:06 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:06 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-10/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-10", "value": ["z", "h", "a", "n", "g", "s", "a", "n", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 20:08:06 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:06 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 20:08:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-11/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-11"}
+2017-06-26 20:08:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 20:08:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-12/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-12", "value": ["1", "5", "8", "x", "x", "x", "x", "x", "x", "x", "3"]}
+2017-06-26 20:08:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:07 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//textarea"}
+2017-06-26 20:08:07 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:08 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-13/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-13", "value": ["\u4e0d", "\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 20:08:08 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:08 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 20:08:08 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:08 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-14/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-14"}
+2017-06-26 20:08:08 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:10 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/source {"sessionId": "e15fac37bc3184029daa034dea039ee2"}
+2017-06-26 20:08:10 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:11 Log.py[line:19] INFO 新建联系人成功
+2017-06-26 20:08:11 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//div[@role='toolbar']//span[text()='\u65b0\u5efa\u8054\u7cfb\u4eba']"}
+2017-06-26 20:08:11 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:11 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-2/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-2"}
+2017-06-26 20:08:11 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:12 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//a[@title='\u7f16\u8f91\u8be6\u7ec6\u59d3\u540d']/preceding-sibling::div/input"}
+2017-06-26 20:08:12 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:12 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-15/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-15", "value": ["\u674e", "\u56db"]}
+2017-06-26 20:08:12 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:13 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//*[@id='iaddress_MAIL_wrap']//input"}
+2017-06-26 20:08:13 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:13 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-16/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-16", "value": ["l", "i", "s", "i", "@", "q", "q", ".", "c", "o", "m"]}
+2017-06-26 20:08:13 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:13 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//span[text()='\u8bbe\u4e3a\u661f\u6807\u8054\u7cfb\u4eba']/preceding-sibling::span/b"}
+2017-06-26 20:08:13 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:13 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-17/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-17"}
+2017-06-26 20:08:13 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:13 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//*[@id='iaddress_TEL_wrap']//dd//input"}
+2017-06-26 20:08:13 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-18/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-18", "value": ["1", "5", "7", "x", "x", "x", "x", "x", "x", "9"]}
+2017-06-26 20:08:14 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//textarea"}
+2017-06-26 20:08:14 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-19/value {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-19", "value": ["\u4e0d", "\u5e38", "\u8054", "\u7cfb", "\u4eba"]}
+2017-06-26 20:08:14 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element {"using": "xpath", "sessionId": "e15fac37bc3184029daa034dea039ee2", "value": "//span[.='\u786e \u5b9a']"}
+2017-06-26 20:08:14 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:15 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/element/0.1303086980851178-20/click {"sessionId": "e15fac37bc3184029daa034dea039ee2", "id": "0.1303086980851178-20"}
+2017-06-26 20:08:15 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:17 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:25870/session/e15fac37bc3184029daa034dea039ee2/source {"sessionId": "e15fac37bc3184029daa034dea039ee2"}
+2017-06-26 20:08:17 remote_connection.py[line:517] DEBUG Finished Request
+2017-06-26 20:08:17 Log.py[line:19] INFO 新建联系人成功

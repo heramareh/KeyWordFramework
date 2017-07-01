@@ -4,7 +4,9 @@ import os
 # 获取工程所在的目录的绝对路径
 project_path = os.path.dirname(os.path.dirname(__file__))
 page_object_repository_path = os.path.join(project_path, "Config", "PageObjectRepository.ini")
-test_data_excel_path = os.path.join(project_path, "TestData", u"126邮箱的测试用例.xlsx")
+test_data_path = os.path.join(project_path, "TestData")
+test_data_excel_path = os.path.join(test_data_path, u"126邮箱的测试用例.xlsx")
+SolutionPath = os.path.join(project_path, "Solution")
 # 浏览器驱动文件所在的绝对路径
 ieDriverFilePath = os.path.join(project_path, "BroswerDriver", "IEDriverServer")
 chromeDriverFilePath = os.path.join(project_path, "BroswerDriver", "chromedriver")

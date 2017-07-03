@@ -758,6 +758,7 @@ def get_cookies():
         raise e
 
 def get_cookie_by_name(name):
+    u"""获取cookie，通过name"""
     global driver
     try:
         cookie = driver.get_cookie(name)
@@ -766,6 +767,7 @@ def get_cookie_by_name(name):
         raise e
 
 def delete_cookie_by_name(name):
+    u"""删除cookie，通过name"""
     global driver
     try:
         driver.delete_cookie(name)

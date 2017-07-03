@@ -14,9 +14,11 @@ def get_all_solution():
                 xlsx_files.append(os.path.join(root, file))
     solution_all = []
     for xlsx_file in xlsx_files:
+        # print xlsx_file.split(test_data_path)[1].decode('gbk')
         pe = ParseExcel(xlsx_file)
         for sheet_name in pe.get_all_sheet_names():
-            solution_all.append(os.path.split(xlsx_file)[1].decode('gbk') + "||" + sheet_name + '\n')
+            # solution_all.append(os.path.split(xlsx_file)[1].decode('gbk') + "||" + sheet_name + '\n')
+            solution_all.append( xlsx_file.split(test_data_path)[1][1:].decode('gbk') + "||" + sheet_name + '\n')
     return solution_all
 
 def set_solution(file_name='solution_all.txt'):
@@ -36,3 +38,7 @@ def get_solution():
 def get_file_name_and_sheet_name(s):
     u"""用||拆分出来excel_name和sheet_name"""
     return s.split('||')[0].decode(), s.split('||')[1].decode()
+
+if __name__ == '__main__':
+    for content in get_solution():
+        print content

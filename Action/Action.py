@@ -166,6 +166,7 @@ def open_browser(broswerName, *args):
             driver = webdriver.Chrome(executable_path=var.chromeDriverFilePath, chrome_options = chrome_options)
         else:
             raise ValueError("broswerName error: " + broswerName)
+        driver.maximize_window()
     except Exception, e:
         raise e
 

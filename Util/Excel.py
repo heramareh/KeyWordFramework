@@ -167,15 +167,15 @@ class ParseExcel(object):
         u"""获取替换参数后的action"""
         result = deepcopy(actions)
         for id, action in enumerate(result):
-            action_value = re.match("\$\((.*)\)", action[var.actionValue])
+            action_values = re.findall("\$\((.*)\)", action[var.actionValue])
             is_run = re.match("\$\((.*)\)", action[var.isRun])
-            locator_expression = re.match("\$\((.*)\)", action[var.locatorExpression])
-            if action_value:
-                result[id][var.actionValue] = value[action_value.group(1)]
+            locator_expressions = re.findall("\$\((.*)\)", action[var.locatorExpression])
+            for action_value in action_values:
+                result[id][var.actionValue] = result[id][var.actionValue].replace("$("+action_value+")", value[action_value])
             if is_run:
                 result[id][var.isRun] = value[is_run.group(1)]
-            if locator_expression:
-                result[id][var.locatorExpression] = value[locator_expression.group(1)]
+            for locator_expression in locator_expressions:
+                result[id][var.locatorExpression] = result[id][var.locatorExpression].replace("$("+locator_expression+")", value[locator_expression])
         return result
 
     def get_replace_params_actions(self):
